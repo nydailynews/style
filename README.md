@@ -5,6 +5,8 @@ Guidelines on coding for the NY Daily News newsroom
 
 ### Spaces vs. tabs
 
+Spaces, four of them.
+
 ### CamelCase vs. underscore_each_word
 
 Underscores, please. The one exception: When naming Python classes, use CamelCase.
@@ -32,7 +34,7 @@ Some basics:
 
 ## Python style
 
-[PEP8, please](https://www.python.org/dev/peps/pep-0008/)
+[PEP8 is the Python style guide and is worth reading](https://www.python.org/dev/peps/pep-0008/).
 
 ## PHP style
 
