@@ -24,6 +24,12 @@ Some basics:
 
 ### Variable names
 
+#### Constant names
+
+Constants act like a variable but once a constant is set it doesn't change. Often these are used as environment vars used to configure a particular app on a particular server / computer.
+
+Constant names should be UPPERCASE_WITH_UNDERSCORES.
+
 ### What about when I'm importing code that uses its own style?
 
 ## HTML style
