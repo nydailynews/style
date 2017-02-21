@@ -7,6 +7,8 @@ Guidelines on coding for the NY Daily News newsroom
 
 ### CamelCase vs. underscore_each_word
 
+Underscores, please. The one exception: When naming Python classes, use CamelCase.
+
 ## Other naming conventions
 
 ### File and directory names
@@ -29,6 +31,8 @@ Some basics:
 ## CSS style
 
 ## Python style
+
+[PEP8, please](https://www.python.org/dev/peps/pep-0008/)
 
 ## PHP style
 
