@@ -32,6 +32,8 @@ Constant names should be UPPERCASE_WITH_UNDERSCORES.
 
 ### What about when I'm importing code that uses its own style?
 
+Let it be.
+
 ## HTML style
 
 ## Javascript style
