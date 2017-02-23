@@ -46,3 +46,10 @@ Let it be.
 
 ## PHP style
 
+### Braces and if / foreach / loop syntax
+
+PHP lends itself to piles of hard-to-decipher close-braces. Here are some preferred techniques to avoid tag soup:
+
+#### if / endif
+
+Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); endif;`. Same for `foreach`'s.
