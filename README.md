@@ -40,6 +40,8 @@ HTML should be readable when viewed. Also, when stylesheets are disabled, the ma
 
 ## Javascript style
 
+Writing a bunch of functions with loose javascript in between is the enemy. Organizing your javascript into discrete objects is a solid first step toward code maintainability and test-ability. I would write more but [Clean Code: Javascript](https://github.com/ryanmcdermott/clean-code-javascript) has already written it all. Read that.
+
 ## CSS style
 
 ## Python style
