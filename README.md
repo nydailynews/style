@@ -1,5 +1,5 @@
-# Code style guide
-Guidelines on coding for the NY Daily News newsroom
+# Coding project style guide
+Guidelines on code and coding projects for the NY Daily News newsroom.
 
 ## Religious battles
 
@@ -57,3 +57,7 @@ PHP lends itself to piles of hard-to-decipher close-braces. Here are some prefer
 #### if / endif
 
 Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); endif;`. Same for `foreach`'s.
+
+## Project management
+
+### Creating repositories vs. creating snippets vs. actually making something
