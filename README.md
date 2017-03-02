@@ -60,4 +60,31 @@ Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); end
 
 ## Project management
 
+### Committing to repo
+
+#### When to commit
+
+Commit early and often. You don't need to push with every commit, but incremental commits will allow you to retrace the decisions you made should you need to do that.
+
+#### How to write an adequate commit message
+
+Start your commit message with a verb. Describe what changed. If you made a decision you'd like to remember later, mention that and explain it.
+
+Bad commit message:
+```
+It's fixed.
+```
+
+Better commit message:
+```
+Fixed the inaccurate markup in index.html.
+```
+
+Best commit message:
+```
+Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improves the document's accessibility.
+```
+
+
+
 ### Creating repositories vs. creating snippets vs. actually making something
