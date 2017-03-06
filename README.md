@@ -36,13 +36,27 @@ Let it be.
 
 ## HTML style
 
-HTML should be readable when viewed. Also, when stylesheets are disabled, the markup of the document should still make sense.
+Markup should be readable when viewed. Also, when stylesheets are disabled, the markup of the document should still make sense.
+
+### When to add classes, when to add id's, and when to use markup
 
 ## Javascript style
 
 Writing a bunch of functions with loose javascript in between is the enemy. Organizing your javascript into discrete objects is a solid first step toward code maintainability and test-ability. I would write more but [Clean Code: Javascript](https://github.com/ryanmcdermott/clean-code-javascript) has already written it all. Read that.
 
 ## CSS style
+
+Four-space tabs, if it's a one-line declaration keep it on one line, ala
+```css
+ul.emphasis li { font-size: 4em; }
+```
+Otherside declare styles like
+```css
+article > p {
+    line-height: 1em;
+    color: #333;
+}
+```
 
 ## Python style
 
