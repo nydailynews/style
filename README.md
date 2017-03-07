@@ -9,7 +9,7 @@ Spaces, four of them.
 
 ### CamelCase vs. underscore_each_word
 
-Underscores, please. The one exception: When naming Python classes, use CamelCase.
+Underscores, please. The one exception: When naming classes, use camelCase.
 
 ## Other naming conventions
 
@@ -23,6 +23,8 @@ Some basics:
 * Image file names should be as clear as possible. If the image is a photo, make sure you can tell what the photo is of from the file name.
 
 ### Variable names
+
+See camelCase vs. underscores.
 
 #### Constant names
 
@@ -42,7 +44,7 @@ Markup should be readable when viewed. Also, when stylesheets are disabled, the 
 
 ## Javascript style
 
-Writing a bunch of functions with loose javascript in between is the enemy. Organizing your javascript into discrete objects is a solid first step toward code maintainability and test-ability. I would write more but [Clean Code: Javascript](https://github.com/ryanmcdermott/clean-code-javascript) has already written it all. Read that.
+Writing a bunch of functions with loose javascript in between is the enemy. Organizing your javascript into discrete objects is a solid first step toward code maintainability and test-ability. I would write more but [Clean Code: Javascript](https://github.com/ryanmcdermott/clean-code-javascript) has already written it. Read that.
 
 ## CSS style
 
@@ -99,6 +101,7 @@ Best commit message:
 Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improves the document's accessibility.
 ```
 
-
-
 ### Creating repositories vs. creating snippets vs. actually making something
+
+
+### When to use a database vs. when to not use a database
