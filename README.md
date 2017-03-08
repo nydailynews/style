@@ -105,3 +105,5 @@ Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improve
 
 
 ### When to use a database vs. when to not use a database
+
+Most of the time you don't need a database for your project. Even many of the times you think you need a database, you don't. Places you might need a database include interactives that record user data (though you don't always need a db for that), gigantic multi-join table situtations, you have a data dump in sql format, you want to try sqlite out for something and you promise it won't become a deal.
