@@ -107,8 +107,7 @@ Are you writing a reference document or how-to that's not attached to a particul
 
 Are you writing a snippet of code (HTML, JS, whatever) for someone else to use? Don't email it, put it in a gist and send the person a link with clear intstructions. ([example gist](https://gist.github.com/freejoe76/363821580ff523062ffbde3fe4aa54b1)).
 
-
-
+#### How to lay out a project repo
 
 ### When to use a database vs. when to not use a database
 
