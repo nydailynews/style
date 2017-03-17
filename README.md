@@ -101,7 +101,13 @@ Best commit message:
 Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improves the document's accessibility.
 ```
 
-### Creating repositories vs. creating snippets vs. actually making something
+### Creating repositories vs. creating snippets vs. other technical writing things
+
+Are you writing a reference document or how-to that's not attached to a particular code repo? Write it in markdown and make it a public gist ([example](https://gist.github.com/freejoe76/06544a90fd14183acd43f5812d3b933b)).
+
+Are you writing a snippet of code (HTML, JS, whatever) for someone else to use? Don't email it, put it in a gist and send the person a link with clear intstructions. ([example gist](https://gist.github.com/freejoe76/363821580ff523062ffbde3fe4aa54b1)).
+
+
 
 
 ### When to use a database vs. when to not use a database
