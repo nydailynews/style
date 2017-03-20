@@ -109,6 +109,15 @@ Are you writing a snippet of code (HTML, JS, whatever) for someone else to use? 
 
 #### How to lay out a project repo
 
+Vanilla projects get a:
+
+* `README.md`
+* `requirements.txt` for projects that use python and need a virtualenv.
+* `www/` directory
+* `www/js/`, `www/css/`, `www/img/`, each if necessary
+
+When a project is based on a particular framework such as flask or django, different project layouts may be required.
+
 ### When to use a database vs. when to not use a database
 
 Most of the time you don't need a database for your project. Even many of the times you think you need a database, you don't. Places you might need a database include interactives that record user data (though you don't always need a db for that), gigantic multi-join table situtations, you have a data dump in sql format, you want to try sqlite out for something and you promise it won't become a deal.
