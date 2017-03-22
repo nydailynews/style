@@ -1,6 +1,8 @@
 # Coding project style guide
 Guidelines on code and coding projects for the NY Daily News newsroom.
 
+## Commenting your code
+
 ## Religious battles
 
 ### Spaces vs. tabs
@@ -34,7 +36,7 @@ Constant names should be UPPERCASE_WITH_UNDERSCORES.
 
 ### What about when I'm importing code that uses its own style?
 
-Let it be.
+Let it be and cite the source in the comments, if appropriate.
 
 ## HTML style
 
