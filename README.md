@@ -27,6 +27,7 @@ Some basics:
 * Use hyphens in directories, use underscores in file names. Never use spaces.
 * Keep directory names for directories that store assets as short as can be while still being clear.
 * Image file names should be as clear as possible. If the image is a photo, make sure you can tell what the photo is of from the file name.
+* For sites and projects that have one file with a bunch of custom javascript in it, call that file `app.js` for the sake of consistency.
 
 ### Variable names
 
