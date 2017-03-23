@@ -3,6 +3,10 @@ Guidelines on code and coding projects for the NY Daily News newsroom.
 
 ## Commenting your code
 
+A worthwhile comment explains to your future self a decision you made that you'd have to spend work figuring out otherwise. Look at commenting your code as explaining to your future self things in order to make your future self hate your past self and your past self's decisions less.
+
+A good comment doesn't re-tell what's already immediately obvious in the code. Not all functions / methods need a comment at the start of the function explaining what it's about.
+
 ## Religious battles
 
 ### Spaces vs. tabs
