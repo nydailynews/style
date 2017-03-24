@@ -5,7 +5,7 @@ Guidelines on code and coding projects for the NY Daily News newsroom.
 
 A worthwhile comment explains to your future self a decision you made that you'd have to spend work figuring out otherwise. Look at commenting your code as explaining to your future self things in order to make your future self hate your past self and your past self's decisions less.
 
-A good comment doesn't re-tell what's already immediately obvious in the code. In order for this to work, the elements of the code ([such as variable, function and class names](#variable-names)) should have names that communicate what those elements are about.
+A good comment doesn't re-tell what's already immediately obvious in the code. In order for this to work, the elements of the code ([such as variable, function and class names](#variable-function-and-class-names)) should have names that communicate what those elements are about.
 
 ## Religious battles
 
@@ -34,6 +34,10 @@ Some basics:
 Regarding style, see [camelCase vs. underscores](#camelcase-vs-underscore_each_word).
 
 Regarding what makes a communicative variable name: Nouns are a start. If your variable is an array of records from a CSV, `rows` or `records` is a good place to start. Don't be too specific. `rows` works as long as there's not another something clamoring to be named `rows` too -- if there is, go the `rows_[some other noun]` route rather than the `rows2` route. Putting numbers in a variable name is usually a sign something's wrong.
+
+#### Function names
+
+#### Class names
 
 #### Constant names
 
