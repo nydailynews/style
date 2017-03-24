@@ -7,6 +7,8 @@ A worthwhile comment explains to your future self a decision you made that you'd
 
 A good comment doesn't re-tell what's already immediately obvious in the code. In order for this to work, the elements of the code ([such as variable, function and class names](#variable-function-and-class-names)) should have names that communicate what those elements are about.
 
+More reading about code comments: [Code Tells You How, Comments Tell You Why](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
+
 ## Religious battles
 
 ### Spaces vs. tabs
