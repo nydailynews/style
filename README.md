@@ -129,7 +129,9 @@ Vanilla projects get a:
 * `README.md`
 * `requirements.txt` for projects that use python and need a virtualenv.
 * `www/` directory
-* `www/js/`, `www/css/`, `www/img/`, each if necessary
+* `www/js/`, `www/css/`, `www/img/`, if necessary
+
+If this is a project that will have an index as well as indvidual URLs ([such as the quiz project](http://interactive.nydailynews.com/quiz/), also create a `_blank` directory inside the `www` directory. In there store the template files for an individual thing, whatever that thing is you're publishing (a single quiz, a single longform, etc.).
 
 When a project is based on a particular framework such as flask or django, different project layouts may be required.
 
