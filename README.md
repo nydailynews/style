@@ -37,9 +37,9 @@ Regarding style, see [camelCase vs. underscores](#camelcase-vs-underscore_each_w
 
 Regarding what makes a communicative variable name: Nouns are a start. If your variable is an array of records from a CSV, `rows` or `records` is a good place to start. Don't be too specific. `rows` works as long as there's not another something clamoring to be named `rows` too -- if there is, go the `rows_[some other noun]` route rather than the `rows2` route. Putting numbers in a variable name is usually a sign something's wrong.
 
-#### Function names
+#### Function & class names
 
-#### Class names
+#### CSS id & class names
 
 #### Constant names
 
