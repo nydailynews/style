@@ -39,8 +39,6 @@ Regarding what makes a communicative variable name: Nouns are a start. If your v
 
 #### Function & class names
 
-#### CSS id & class names
-
 #### Constant names
 
 Constants act like a variable but once a constant is set it doesn't change. Often these are used as environment vars used to configure a particular app on a particular server / computer. Constants have an explicit place in PHP and environment vars have a defined place in the shell, and this ALLCAPS style can be used in Python and Javascript with no side effects.
@@ -74,6 +72,12 @@ article > p {
     color: #333;
 }
 ```
+
+### CSS id & class names
+
+Use underscores in class names, hyphens are easier to type and sometimes id's are used in permalinks, so hyphens are okay in id names.
+
+Avoid colors or numbers in class and id names.
 
 ## Python style
 
