@@ -101,6 +101,8 @@ Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); end
 
 Commit early and often. You don't need to push with every commit, but incremental commits will allow you to retrace the decisions you made should you need to do that.
 
+Note: If you're starting a project, you don't even have to attach it to a repo. `git init` in your project's directory will allow you to make commits against a project, once you know where the project's repo lives you can connect the two with a command such as `git remote add origin ssh://git@bitbucket.org/nydailynews/fiction.git`.
+
 #### How to write an adequate commit message
 
 Start your commit message with a verb. Describe what changed. If you made a decision you'd like to remember later, mention that and explain it.
