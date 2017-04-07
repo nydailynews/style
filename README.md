@@ -55,7 +55,8 @@ Let it be and cite the source in the comments, if appropriate.
 
 Markup should be readable when viewed. Also, when stylesheets are disabled, the markup of the document should still make sense.
 
-### When to add classes, when to add id's, and when to use markup
+### When to add classes, when to add id's, and when to use markup in layout
+High level overview: Stick to markup elements as much as possible, save classes for situations when a particular element needs to be differentiated and id's for situations where one particular element will be manipulated with javascript or could be linked to in the page directly.
 
 ## Javascript style
 
