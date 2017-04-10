@@ -127,6 +127,8 @@ Best commit message:
 Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improves the document's accessibility.
 ```
 
+### Handling project-specific configuration variables
+
 ### Creating repositories vs. creating snippets vs. other technical writing things
 
 Are you writing a reference document or how-to that's not attached to a particular code repo? Write it in markdown and make it a public gist ([example](https://gist.github.com/freejoe76/06544a90fd14183acd43f5812d3b933b)).
