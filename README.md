@@ -66,15 +66,17 @@ Writing a bunch of functions with loose javascript in between is the enemy. Orga
 
 Four-space tabs, if it's a one-line declaration keep it on one line, ala
 ```css
-ul.emphasis li { font-size: 4em; }
+ul.emphasis li { font-size: 24px; }
 ```
-Otherside declare styles like
+Otherwise declare styles like
 ```css
 article > p {
-    line-height: 1em;
+    line-height: 14px;
     color: #333;
 }
 ```
+
+Use pixels for everything ([Why](https://benfrain.com/just-use-pixels/)).
 
 ### CSS id & class names
 
