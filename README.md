@@ -15,6 +15,10 @@ More reading about code comments: [Code Tells You How, Comments Tell You Why](ht
 
 Spaces, four of them.
 
+### Hyphens vs. underscores
+
+On the frontend (CSS / HTML), if there's a chance whatever it is you're naming could end up in a URL, use hyphens.
+
 ### CamelCase vs. underscore_each_word
 
 Underscores, please. The one exception: When naming classes, use camelCase.
