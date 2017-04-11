@@ -100,7 +100,9 @@ Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); end
 
 ## Project management
 
-### Committing to repo
+###  Code repositories
+
+We store code on Github and on Bitbucket. Use Bitbucket for endeavors that need to be private and for project-specific repos, use Github for everything else. Example: Keep 'Em Dump 'Em and its template / app files are stored on Github, but individual Keep 'Em Dump 'Ems are stored on Bitbucket.
 
 #### When to commit
 
