@@ -9,7 +9,7 @@ A good comment doesn't re-tell what's already immediately obvious in the code. I
 
 More reading about code comments: [Code Tells You How, Comments Tell You Why](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
 
-## Religious battles
+## Religious battles / things some people feel strongly about
 
 ### Spaces vs. tabs
 
@@ -80,7 +80,7 @@ article > p {
 }
 ```
 
-Use pixels for everything ([Why](https://benfrain.com/just-use-pixels/)).
+*Use pixels for everything* ([Why](https://benfrain.com/just-use-pixels/), also [why](https://hackernoon.com/rems-and-ems-and-why-you-probably-dont-need-them-664b9ce1e09f)).
 
 ### CSS id & class names
 
@@ -134,6 +134,8 @@ Fixed the inaccurate markup in index.html. Using <p>'s instead of <br>'s improve
 ```
 
 ### Handling project-specific configuration variables
+
+Hard-coding things into the project that have to be changed when the project is launched makes it hard to launch and hard for others to collaborate with you on your project. You can avoid some of this with relative paths on HTML src / href's. Sometimes, in other situations, it's unavoidable and you have to create a variable to handle a project-specific configuration thing.
 
 ### Creating repositories vs. creating snippets vs. other technical writing things
 
