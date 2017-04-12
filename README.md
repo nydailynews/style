@@ -92,6 +92,8 @@ Avoid colors or numbers in class and id names.
 
 [PEP8 is the Python style guide and is worth reading](https://www.python.org/dev/peps/pep-0008/).
 
+For a boilerplate Python 2 file, [you could do worse than this](https://gist.github.com/freejoe76/7af5a3d88766f3ae6fa0c77bacaa002a).
+
 ## PHP style
 
 ### Braces and if / foreach / loop syntax
