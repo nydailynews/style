@@ -159,3 +159,13 @@ When a project is based on a particular framework such as flask or django, diffe
 ### When to use a database vs. when to not use a database
 
 Most of the time you don't need a database for your project. Even many of the times you think you need a database, you don't. Places you might need a database include interactives that record user data (though you don't always need a db for that), gigantic multi-join table situtations, you have a data dump in sql format, you want to try sqlite out for something and you promise it won't become a deal.
+
+## On debugging
+
+### Debugging JS
+
+If you want to see all the JS that's on a particular URL, head over to Firefox, get the Web Developer Toolbar (the Chris Pedrick one, it's a classic), load the URL and go to information --> View Javascript. This is good for figuring out all the javascript that's working on a particular element / variable / finding all the scroll handlers clogging up a particular page.
+
+### Debugging CSS
+
+https://css-tricks.com/debugging-tips-tricks/
