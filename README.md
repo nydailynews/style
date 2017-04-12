@@ -169,3 +169,7 @@ If you want to see all the JS that's on a particular URL, head over to Firefox, 
 ### Debugging CSS
 
 https://css-tricks.com/debugging-tips-tricks/
+
+### Debugging cross-browser issues
+
+### Debugging handheld issues
