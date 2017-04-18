@@ -177,3 +177,9 @@ https://css-tricks.com/debugging-tips-tricks/
 [View how it looks in Internet Explorer here](https://netrenderer.com/)
 
 ### Debugging handheld issues
+
+## Resources
+
+Links that might be useful for whatever reason.
+
+* Zed Shaw's [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
