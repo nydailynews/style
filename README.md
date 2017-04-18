@@ -23,6 +23,10 @@ On the frontend (CSS / HTML), if there's a chance whatever it is you're naming c
 
 Underscores, please. The one exception: When naming classes, use camelCase.
 
+### Single vs. double quotes
+
+Single quotes are faster to type, so unless you've got a reason to use double quotes, use singles.
+
 ## Other naming conventions
 
 ### File and directory names
