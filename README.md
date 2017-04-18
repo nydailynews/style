@@ -174,4 +174,6 @@ https://css-tricks.com/debugging-tips-tricks/
 
 ### Debugging cross-browser issues
 
+[View how it looks in Internet Explorer here](https://netrenderer.com/)
+
 ### Debugging handheld issues
