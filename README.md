@@ -88,7 +88,7 @@ article > p {
 
 ### CSS id & class names
 
-Use underscores in class names, hyphens are easier to type and sometimes id's are used in permalinks, so hyphens are okay in id names.
+Use hyphens in class and id names, hyphens are easier to type and sometimes id's are used in permalinks, in which case you definitely don't want to have to be thinking "should this be an underscore or a hyphen"?
 
 Avoid colors or numbers in class and id names.
 
