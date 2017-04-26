@@ -90,7 +90,10 @@ article > p {
 
 Use hyphens in class and id names, hyphens are easier to type and sometimes id's are used in permalinks, in which case you definitely don't want to have to be thinking "should this be an underscore or a hyphen"?
 
-Avoid colors or numbers in class and id names.
+### Things to avoid in your CSS
+
+1. Avoid colors or numbers in class and id names.
+2. [Magic numbers](https://css-tricks.com/magic-numbers-in-css/)
 
 ## Python style
 
