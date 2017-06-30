@@ -173,7 +173,7 @@ Most of the time you don't need a database for your project. Even many of the ti
 
 ### Debugging JS
 
-If you want to see all the JS that's on a particular URL, head over to Firefox, get the Web Developer Toolbar (the Chris Pedrick one, it's a classic), load the URL and go to information --> View Javascript. This is good for figuring out all the javascript that's working on a particular element / variable / finding all the scroll handlers clogging up a particular page.
+If you want to see all the JS that's on a particular URL, head over to Firefox, get the [Web Developer Toolbar](https://addons.mozilla.org/en-US/firefox/addon/web-developer/) (the Chris Pedrick one, it's a classic), load the URL and go to information --> View Javascript. This is good for figuring out all the javascript that's working on a particular element / variable / finding all the scroll handlers clogging up a particular page.
 
 ### Debugging CSS
 
