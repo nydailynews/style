@@ -72,11 +72,7 @@ Writing a bunch of functions with loose javascript in between is the enemy. Orga
 
 ## CSS style
 
-Four-space tabs, if it's a one-line declaration keep it on one line, ala
-```css
-ul.emphasis li { font-size: 24px; }
-```
-Otherwise declare styles like
+Declare styles like
 ```css
 article > p {
     line-height: 14px;
