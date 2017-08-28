@@ -3,12 +3,11 @@ h1, h2, h3, h4, h5, ul, ol, button {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 h1 {
-    text-transform: uppercase;
-    font-size: 36px;
+    text-transform: capitalize;
+    font-size: 37px;
     font-weight: bold;
     color: #333;
-    margin-bottom: 0px;
-    line-height: 34px;
+    line-height: 50px;
 }
 h2 {
     font-size: 24px;
@@ -29,35 +28,72 @@ p {
 }
 
 #social_map #facebook {
-  background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-  background-repeat: no-repeat;
-  background-position: 1px 4px;
-  width: 40px;
-  height: 40px;
-  margin-right: 11px;
-  cursor: pointer;
-  float: left;
+    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
+    background-repeat: no-repeat;
+    background-position: 1px 4px;
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+    cursor: pointer;
+    float: left;
 }
 
 #social_map #twitter {
-  background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-  background-repeat: no-repeat;
-  background-position: 0 -42px;
-  width: 40px;
-  height: 40px;
-  margin-right: 11px;
-  cursor: pointer;
-  float: left;
+    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
+    background-repeat: no-repeat;
+    background-position: 0 -42px;
+    width: 40px;
+    height: 40px;
+    margin-right: 11px;
+    cursor: pointer;
+    float: left;
 }
 
 #social_map #email {
-  background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-  background-repeat: no-repeat;
-  background-position: 0 -88px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  float: left;
+    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
+    background-repeat: no-repeat;
+    background-position: 0 -88px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    float: left;
+}
+
+
+body#nydailynews article {
+    max-width: 1100px;
+    margin: auto;
+    float: none;
+}
+
+#rh-subnav-wrap {
+    display: none; }
+
+
+#sidebar {
+    float: right;
+    width: 300px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #89898A;
+    max-width: 75%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 642px) {
+    #sidebar {
+    float: none;
+    width: 100%;
+    }
 }
 
 
