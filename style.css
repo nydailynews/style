@@ -1,21 +1,39 @@
 /* Basic index-page stylesheet */
-h1, h2, h3, h4, h5, ul, ol, button {
+h1, h2, h3, h4, h5, button {
     font-family: 'Open Sans Condensed', sans-serif;
-}
-h1 {
-    text-transform: capitalize;
-    font-size: 37px;
-    font-weight: bold;
     color: #333;
-    line-height: 50px;
+    text-rendering: optimizeLegibility;
 }
+
+h1 {
+    font-size: 50px;
+    margin: 40px auto;
+}
+
 h2 {
     font-size: 24px;
-    float: none;
-    font-weight: bold;
+    margin-top: 34px;
 }
+
 p {
     font-family: 'PT Serif', serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+ul, ol, dl {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+    list-style-position: outside;
+    margin-bottom: 1.25rem;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
 }
 
 .center {
@@ -23,52 +41,16 @@ p {
     margin: auto;
     margin-bottom: 10px;
 }
+
 .ad {
     margin: 10px auto;
 }
-
-#social_map #facebook {
-    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-    background-repeat: no-repeat;
-    background-position: 1px 4px;
-    width: 40px;
-    height: 40px;
-    margin-right: 11px;
-    cursor: pointer;
-    float: left;
-}
-
-#social_map #twitter {
-    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-    background-repeat: no-repeat;
-    background-position: 0 -42px;
-    width: 40px;
-    height: 40px;
-    margin-right: 11px;
-    cursor: pointer;
-    float: left;
-}
-
-#social_map #email {
-    background-image: url('http://interactive.nydailynews.com/poll/keep-em-dump-em/img/Share-Sprite-2.png');
-    background-repeat: no-repeat;
-    background-position: 0 -88px;
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    float: left;
-}
-
 
 body#nydailynews article {
     max-width: 1100px;
     margin: auto;
     float: none;
 }
-
-#rh-subnav-wrap {
-    display: none; }
-
 
 #sidebar {
     float: right;
@@ -83,6 +65,12 @@ body#nydailynews article {
     max-width: 75%;
 }
 
+p.byline {
+    font: normal 14px "Open Sans", sans-serif;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
 
 
 
