@@ -11,29 +11,35 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
-    margin-top: 34px;
+    font: bold, 26px, 'Open Sans Condensed', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-p {
+p, li {
     font-family: 'PT Serif', serif;
     font-size: 20px;
     line-height: 30px;
 }
 
-ul, ol, dl {
+ol, dl {
     font-family: inherit;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 12px;
+    line-height: 22px;
     list-style-position: outside;
-    margin-bottom: 1.25rem;
+    margin-bottom: 17px;
+}
+
+dt {
+    font-weight: normal;
+    color: #999;
 }
 
 ul {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     font-size: 15px;
-    line-height: 27px;
+    line-height: 25px;
 }
 
 .center {
@@ -87,6 +93,7 @@ p.byline {
 
 @media only screen and (min-width: 800px) {
 }
+
 /* FOUNDATION OVERRIDES 
 dl {
     font-family: inherit;
