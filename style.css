@@ -7,7 +7,8 @@ h1, h2, h3, h4, h5, button {
 
 h1 {
     font-size: 50px;
-    margin: 40px auto;
+    line-height: 55px;
+    margin: 40px auto 20px auto;
 }
 
 h2 {
@@ -20,22 +21,21 @@ p, li {
     font-family: 'PT Serif', serif;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 15px;
 }
 
 ol, dl {
     font-family: inherit;
-    font-size: 12px;
-    line-height: 22px;
-    list-style-position: outside;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 dt {
-    font-weight: normal;
     color: #999;
 }
 
 dd {
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 ul {
