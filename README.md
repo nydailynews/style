@@ -86,6 +86,12 @@ article > p {
 
 Use hyphens in class and id names, hyphens are easier to type and sometimes id's are used in permalinks, in which case you definitely don't want to have to be thinking "should this be an underscore or a hyphen"?
 
+### CSS "sections"
+
+Our style for sectioning CSS based on the part of the interface it applies to looks like this:
+
+```/*----- MAP -----*/```
+
 ### Things to avoid in your CSS
 
 1. Avoid colors or numbers in class and id names.
