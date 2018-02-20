@@ -92,6 +92,16 @@ Our style for sectioning CSS based on the part of the interface it applies to lo
 
 ```/*----- MAP -----*/```
 
+or this:
+
+```/*----- HANDHELD & TABLETS -----*/```
+
+or this:
+
+```/*----- FORM STUFF -----*/```
+
+Note the all caps.
+
 ### Things to avoid in your CSS
 
 1. Avoid colors or numbers in class and id names.
