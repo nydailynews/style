@@ -59,6 +59,14 @@ Constant names should be UPPERCASE_WITH_UNDERSCORES.
 
 Let it be and cite the source in the comments, if appropriate.
 
+## Accessibility guidelines
+
+_Listed in order of importance_.
+
+1. Every image must have an alt tag
+1. When writing a link, make sure the linked words adequately describe what the reader gets when they click or tap.
+1. Header elements must not skip ascending / descending order `<h1>` then `<h2>` then `<h3>`, only one `<h1>` per page.
+
 ## HTML style
 
 Markup should be readable when viewed. Also, when stylesheets are disabled, the markup of the document should still make sense.
