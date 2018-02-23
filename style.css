@@ -12,7 +12,8 @@ h1 {
 }
 
 h2 {
-    font: bold, 26px, 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -23,11 +24,11 @@ p, li {
     line-height: 30px;
 }
 
-ol, dl {
+/*ol, dl {
     font-family: inherit;
     font-size: 15px;
     line-height: 25px;
-}
+}*/
 
 dt {
     color: #999;
