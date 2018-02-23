@@ -19,7 +19,7 @@ h2 {
 
 p, li {
     font-family: 'PT Serif', serif;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -80,6 +80,9 @@ p.byline {
     text-align: center;
 }
 
+#rh-subnav {
+    display: none;
+}
 
 
 
