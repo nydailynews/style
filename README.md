@@ -1,3 +1,7 @@
+# Coding project style guide
+Guidelines on code and coding projects for the NY Daily News newsroom.
+
+## Table of Contents
 - [Coding project style guide](#coding-project-style-guide)
   * [Commenting your code](#commenting-your-code)
   * [Fundamental code design decisions](#fundamental-code-design-decisions)
@@ -35,9 +39,6 @@
   * [Resources](#resources)
   * [Python style](#python-style)
   * [PHP style](#php-style)
-  
-# Coding project style guide
-Guidelines on code and coding projects for the NY Daily News newsroom.
 
 ## Commenting your code
 
