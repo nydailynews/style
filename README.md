@@ -9,7 +9,8 @@ A good comment doesn't re-tell what's already immediately obvious in the code. I
 
 More reading about code comments: [Code Tells You How, Comments Tell You Why](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/)
 
-## Religious battles / things some people feel strongly about
+## Fundamental code design decisions
+Previously titled “_Religious battles / things some people feel strongly about_”
 
 ### Spaces vs. tabs
 
@@ -21,7 +22,7 @@ On the frontend (CSS / HTML), if there's a chance whatever it is you're naming c
 
 ### CamelCase vs. underscore_each_word
 
-Underscores, please. The one exception: When naming classes, use camelCase.
+Underscores, please. The one exception which only applies if you're writing python code: When naming classes, use camelCase.
 
 ### Single vs. double quotes
 
@@ -63,8 +64,9 @@ Let it be and cite the source in the comments, if appropriate.
 
 _Listed in order of importance_.
 
-1. Every image must have an alt tag
-1. When writing a link, make sure the linked words adequately describe what the reader gets when they click or tap.
+1. Every image must have an alt tag with a value that describes what you would see if you can see the image.
+    1. The exception: If the image is purely decorative, the alt tag ought to be empty, ala ` alt=""`. 
+1. When writing a link, make sure the linked words adequately describe what the reader gets when they click or tap. [Here's a good article about writing link text](https://www.nngroup.com/articles/writing-links/) (note that it wasn't written for journalists).
 1. Header elements must not skip ascending / descending order `<h1>` then `<h2>` then `<h3>`, only one `<h1>` per page.
 
 ## HTML style
@@ -115,21 +117,6 @@ Note the all caps.
 1. Avoid colors or numbers in class and id names.
 2. [Magic numbers](https://css-tricks.com/magic-numbers-in-css/)
 
-## Python style
-
-[PEP8 is the Python style guide and is worth reading](https://www.python.org/dev/peps/pep-0008/).
-
-For a boilerplate Python 2 file, [you could do worse than this](https://gist.github.com/freejoe76/7af5a3d88766f3ae6fa0c77bacaa002a).
-
-## PHP style
-
-### Braces and if / foreach / loop syntax
-
-PHP lends itself to piles of hard-to-decipher close-braces. Here are some preferred techniques to avoid tag soup:
-
-#### if / endif
-
-Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); endif;`. Same for `foreach`'s.
 
 ## Project management
 
@@ -210,3 +197,20 @@ https://css-tricks.com/debugging-tips-tricks/
 Links that might be useful for whatever reason.
 
 * Zed Shaw's [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)
+
+
+## Python style
+
+[PEP8 is the Python style guide and is worth reading](https://www.python.org/dev/peps/pep-0008/).
+
+For a boilerplate Python 2 file, [you could do worse than this](https://gist.github.com/freejoe76/7af5a3d88766f3ae6fa0c77bacaa002a).
+
+## PHP style
+
+### Braces and if / foreach / loop syntax
+
+PHP lends itself to piles of hard-to-decipher close-braces. Here are some preferred techniques to avoid tag soup:
+
+#### if / endif
+
+Instead of `if ( clause ) { some_code(); }`, do `if ( clause ): some_code(); endif;`. Same for `foreach`'s.
