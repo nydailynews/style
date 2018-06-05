@@ -1,8 +1,8 @@
-# Coding project style guide
-Guidelines on code and coding projects for the NY Daily News newsroom.
+# Interactive project style guide
+Guidelines on interactive projects for the NY Daily News newsroom.
 
 ## Table of Contents
-- [Coding project style guide](#coding-project-style-guide)
+- Interactive project style guide
   * [Commenting your code](#commenting-your-code)
   * [Fundamental code design decisions](#fundamental-code-design-decisions)
   * [Other naming conventions](#other-naming-conventions)
