@@ -148,7 +148,11 @@ Note the all caps.
 
 ###  Code repositories
 
-We store code on Github and on Bitbucket. Use Bitbucket for endeavors that need to be private and for project-specific repos, use Github for everything else. Example: Keep 'Em Dump 'Em and its template / app files are stored on Github, but individual Keep 'Em Dump 'Ems are stored on Bitbucket.
+We store code on [Github](https://github.com/nydailynews) and on [Bitbucket](https://bitbucket.org/nydailynews/). Use Bitbucket for projects that need to be private, use Github for everything else.
+
+### Repository name style
+
+Repository names should be all lower-case, with hyphens for spaces.
 
 #### When to commit
 
