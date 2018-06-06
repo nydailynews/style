@@ -12,8 +12,6 @@ Guidelines on interactive projects for the NY Daily News newsroom.
   * [CSS style](#css-style)
   * [Project management](#project-management)
     + [Code repositories](#code-repositories)
-      - [When to commit](#when-to-commit)
-      - [How to write an adequate commit message](#how-to-write-an-adequate-commit-message)
     + [Handling project-specific configuration variables](#handling-project-specific-configuration-variables)
     + [Creating repositories vs. creating snippets vs. other technical writing things](#creating-repositories-vs-creating-snippets-vs-other-technical-writing-things)
       - [How to lay out a project repo](#how-to-lay-out-a-project-repo)
