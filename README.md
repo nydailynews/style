@@ -45,6 +45,9 @@ Single quotes are faster to type, so unless you've got a reason to use double qu
 
 ## Other naming conventions
 
+### Date formats
+`YYYY-MM-DD` when possible. This allows us to 1. more easily sort by date and 2. more easily parse out the year from the month and date.
+
 ### File and directory names
 Naming files and directories consistently will make certain things in your world a little bit easier.
 
